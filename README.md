@@ -59,6 +59,7 @@ export default class MyButtonComponent extends Component {
 ```
 
 ## Inline usage in templates
+
 ```hbs
 <div class={{ csz "text-align:center;"}}>Hello World</div>
 ```
