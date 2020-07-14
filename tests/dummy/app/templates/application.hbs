@@ -1,4 +1,29 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">ember-csz</h2>
+<p>A Runtime CSS Modules with SASS like preprocessing</p>
 
+<h2>Example of inline styling with classnames</h2>
 <h1 class={{ csz "text-align:center" }}>Hello World</h1>
-{{outlet}}
+
+<h2>Example of component styling with CSS-in-JS</h2>
+<HelloWorld />
+
+<h2>Adapting based on props</h2>
+<MyButton @primary=true>Primary</MyButton>
+<MyButton>Normal</MyButton>
+
+<h2>Animation and Keyframe namespacing</h2>
+<MyAnimation />
+
+<h2>Pseudo selectors</h2>
+<MyPseudo>Hello World!</MyPseudo>
+<MyPseudo>How ya doing?</MyPseudo>
+<MyPseudo class="something">The sun is shining...</MyPseudo>
+<div>Pretty nice day today.</div>
+<MyPseudo>Don't you think?</MyPseudo>
+<div class="something-else">
+  <MyPseudo>Splendid.</MyPseudo>
+</div>
+
+<h2>Theming</h2>
+<ThemeButton>Normal</ThemeButton>
+<ThemeButton @theme={{this.theme}}>Primary</ThemeButton>
