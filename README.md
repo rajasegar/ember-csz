@@ -1,7 +1,14 @@
 ember-csz
 ==============================================================================
 
-Ember template helpers for [csz](https://github/com/lukejohsonn/csz), a Runtime CSS-Modules with SASS like preprocessing
+![Build and Deploy](https://github.com/rajasegar/ember-csz/workflows/Build%20and%20Deploy/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/rajasegar/ember-csz/badge.svg?branch=master)](https://coveralls.io/github/rajasegar/ember-csz?branch=master)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![npm version](http://img.shields.io/npm/v/ember-csz.svg?style=flat)](https://npmjs.org/package/ember-csz "View this project on npm")
+[![EmberObserver](http://emberobserver.com/badges/ember-csz.svg?branch=master)](http://emberobserver.com/addons/ember-csz)
+
+Ember template helpers for [csz](https://github/com/lukejohnsonn/csz), 
+a Runtime CSS-Modules with SASS like pre-processing.
 
 
 Installation
@@ -38,12 +45,13 @@ export default class MyButtonComponent extends Component {
 ```
 
 #### template.hbs
-```
+```hbs
 <button class={{this.styles}} type="button">
   {{yield}}
 </button>
 ```
 
+#### Using the component
 
 ```hbs
 <MyButton @primary=true>Primary</MyButton>
@@ -51,7 +59,7 @@ export default class MyButtonComponent extends Component {
 ```
 
 ## Inline usage in templates
-```
+```hbs
 <div class={{ csz "text-align:center;"}}>Hello World</div>
 ```
 
