@@ -7,7 +7,7 @@ ember-csz
 [![npm version](http://img.shields.io/npm/v/ember-csz.svg?style=flat)](https://npmjs.org/package/ember-csz "View this project on npm")
 [![EmberObserver](http://emberobserver.com/badges/ember-csz.svg?branch=master)](http://emberobserver.com/addons/ember-csz)
 
-Ember template helpers for [csz](https://github/com/lukejohnsonn/csz), 
+Ember template helpers for [csz](https://github.com/lukejohnsonn/csz), 
 a Runtime CSS-Modules with SASS like pre-processing.
 
 
