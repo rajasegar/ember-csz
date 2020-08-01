@@ -10,6 +10,9 @@ ember-csz
 Ember template helpers for [csz](https://github.com/lukejacksonn/csz), 
 a Runtime CSS-Modules with SASS like pre-processing.
 
+See the introductory [blog post](https://dev.to/rajasegar/ember-csz-a-css-in-js-solution-for-styling-in-ember-2mpp) 
+and [conference talk](https://www.youtube.com/watch?v=uZrVHGEjLhs) to know more about csz.
+
 
 Installation
 ------------------------------------------------------------------------------
