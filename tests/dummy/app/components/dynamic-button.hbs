@@ -1,0 +1,5 @@
+<div class={{this.styles}}>
+<label for="checkbox">Toggle Red: {{this.red}}</label>
+<Input type="checkbox" id="checkbox" {{on "click" this.updateRed}}/>
+<button type="button">{{yield}}</button>
+</div>
