@@ -57,14 +57,14 @@ export default class MyButtonComponent extends Component {
 #### Using the component
 
 ```hbs
-<MyButton @primary=true>Primary</MyButton>
+<MyButton @primary={{true}}>Primary</MyButton>
 <MyButton>Normal</MyButton>
 ```
 
 ## Inline usage in templates
 
 ```hbs
-<div class={{ csz "text-align:center;"}}>Hello World</div>
+<div class={{csz "text-align:center;"}}>Hello World</div>
 ```
 
 Compatibility
